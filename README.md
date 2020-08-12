@@ -6,16 +6,16 @@ MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruct
 
 ## Components
 ###   Combinational
-        - [x] MUX
-        - [x] Sign - Extender
-        - [ ] Adder
-        - [ ] ALU
-        - [ ] ALU Control
-        - [ ] PC updte Control
+- [x] MUX
+- [x] Sign - Extender
+- [ ] Adder
+- [ ] ALU
+- [ ] ALU Control
+- [ ] PC updte Control
 
  ###  State
-        - [ ] Program Counter
-        - [ ]Register
-        - [ ] Program Memory 
-        - [ ] Data Memory
-        - [x]
+- [ ] Program Counter
+- [  ]Register
+- [ ] Program Memory 
+- [ ] Data Memory
+
