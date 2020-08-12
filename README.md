@@ -15,7 +15,7 @@ MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruct
 
  ###  State
 - [ ] Program Counter
-- [  ]Register
+- [ ] Register
 - [ ] Program Memory 
 - [ ] Data Memory
 
