@@ -2,6 +2,8 @@
 
 MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruction set computer (RISC) instruction set architecture (ISA) developed by MIPS Computer Systems, now MIPS Technologies, based in the United States.
 
+
+
 ![Image of MIPS architecture](https://i.imgur.com/6R3Xz.png)
 
 ## Components
@@ -19,7 +21,9 @@ MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruct
 - [ ] Program Memory 
 - [ ] Data Memory
 ------------------------------------------------------------------
-#### ALU
+### ALU 
+[Reference](http://personal.denison.edu/~bressoud/cs281-s08/homework/MIPSALU.html)
+
 Function | ALU Control | Semantics
 ------------| ------------------|-------------------------
 AND | 0000  |   F = A and B (bitwise AND); Z update, V,C = zero
