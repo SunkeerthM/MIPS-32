@@ -9,7 +9,7 @@ MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruct
 - [x] MUX
 - [x] Sign - Extender
 - [ ] Adder
-- [ ] ALU
+- [x] ALU
 - [ ] ALU Control
 - [ ] PC updte Control
 
@@ -18,4 +18,13 @@ MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruct
 - [ ] Register
 - [ ] Program Memory 
 - [ ] Data Memory
-
+------------------------------------------------------------------
+#### ALU
+Function | ALU Control | Semantics
+------------| ------------------|-------------------------
+AND | 0000  |   F = A and B (bitwise AND); Z update, V,C = zero
+OR  | 0001	 |   F = A or B (bitwise OR); Z update, V,C = zero
+add | 0010 	|   F = A + B; Z,V,C update
+sub | 0110	 |   F = A - B; Z,V,C update
+slt	| 0111	 |   F = (A < B) ? 1 : 0
+NOR	| 1100  |   F = ~ ( A or B ) (bitwise NOR); Z update, V,C = zero
