@@ -14,6 +14,8 @@ MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruct
 - [x] ALU
 - [ ] ALU Control
 - [ ] PC updte Control
+- [x] Register File
+
 
  ###  State
 - [ ] Program Counter
