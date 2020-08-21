@@ -56,6 +56,11 @@ $30	       |$fp	       | Frame Pointer
 $31	       |$ra	       | Return Address
 
 
+#### ALU Control
+[Reference](https://www.pitt.edu/~kmram/CoE0147/lectures/datapath3.pdf)
+
+![Image of MIPS ALU Control](https://www.cise.ufl.edu/~mssz/CompOrg/Table4.2-MIPSdatapath-ALUcontrol.gif)
+
 
 
 
